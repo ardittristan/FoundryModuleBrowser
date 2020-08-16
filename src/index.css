@@ -1,0 +1,69 @@
+.noExpand {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+div.bigContainer {
+    margin: 0;
+}
+
+.filterBar .chipFilterIcon {
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+.filterBar .FilterPaper {
+    margin-top: 0.3em;
+}
+
+.filterBar > div > div > span + div,
+.filterBar > div > div > div.filterBarSpan + div:last-of-type {
+    position: absolute;
+    right: 1.33rem;
+    top: 1.33rem;
+}
+
+.filterBar .MuiInputLabel-root {
+    color: rgba(255, 255, 255, 0.7) !important
+}
+
+div.MuiGrid-root.MuiGrid-container > a[target=_blank] {
+    color: #556cd6;
+}
+
+.filterBar > div > div > div > div div[class*="css-"][class$="-control"] {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.12);
+}
+
+.filterBar > div > div > div > div div[class*="css-"][class$="-menu"] {
+    background-color: #212121;
+}
+
+.filterBar > div > div > div > div div[class*="css-"][class$="-option"] {
+    background-color: #212121;
+}
+
+.filterBar > div > div > div > div div[class*="css-"][class$="-option"]:focus,
+.filterBar > div > div > div > div div[class*="css-"][class$="-option"]:hover,
+.filterBar > div > div > div > div div[class*="css-"][class$="-option"]:active,
+.filterBar > div > div > div > div div[class*="css-"][class$="-option"]:focus-within {
+    background-color: #2b2b2b;
+}
+
+.filterBar > div > div > div > div div[class*="css-"][class$="-multiValue"] {
+    background-color: #424242;
+    border-radius: 30px;
+}
+
+.filterBar > div > div > div > div div[class*="css-"][class$="-multiValue"] > div:first-child {
+    color: #fff;
+}
+
+.filterBar > div > div > div > div div[class*="css-"][class$="-multiValue"] > div:last-child:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 30px;
+}
+
+.filterBar > div > div > div > div div[class*="css-"][class$="-singleValue"] {
+    color: #fff;
+}
